@@ -1,0 +1,129 @@
+.SearchPage_header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 30px;
+  padding-bottom: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.SearchPage_header_top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.SearchPage_logo {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 50px;
+}
+
+.SearchPage_header_body > .Search > .search_input {
+  margin-top: 0;
+  width: 690px;
+  margin: unset;
+  max-width: unset;
+  background-color: white;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.SearchPage_header_body > .Search > .search_input:hover {
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+}
+
+/* Options */
+.SearchPage_header_bottom {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.SearchPage_Oprtions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  margin: 0 20px;
+}
+
+.SearchPage_Oprtions a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+
+.SearchPage_Oprtions_Left,
+.SearchPage_Oprtions_Right {
+  display: flex;
+}
+.SearchPage_Oprtions_Right {
+  margin-left: 70px;
+}
+.SearchPage_Oprtion {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 17px 12px 11px 10px;
+}
+
+/* results */
+.SearchPage_results_body {
+  text-overflow: ellipsis;
+  width: 690px;
+  margin-left: 170px;
+  padding-left: 30px;
+}
+.SearchPage_resulCount {
+  font-family: arial, sans-serif;
+  margin: 10px 0 20px;
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+}
+
+.SearchPage_results {
+  margin-top: 0px;
+}
+
+.SearchPage_result {
+  width: 600px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.SearchPage_result .link {
+  line-height: 1.3;
+  padding-top: 1px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+.title,
+h3 {
+  font-size: 20px;
+  line-height: 1.3;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.title h3:hover {
+  text-decoration: underline;
+}
+
+.snippet {
+  max-width: 48em;
+  color: #4d5156;
+  line-height: 1.58;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+.active_box{
+  border-bottom: 2px solid blue;
+}

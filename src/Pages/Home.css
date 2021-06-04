@@ -1,0 +1,48 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.home_header a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 15px;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.home_header a:hover {
+  text-decoration: underline;
+}
+
+.home_header_right {
+  min-width: 13vw;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+/* Margin only first Apps Icon */
+.home_header_right > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.home_body {
+  flex: 1;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home_body > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
